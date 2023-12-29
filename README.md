@@ -17,9 +17,6 @@ Git (optional, for version control integration)
 
 Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/avijeet-somani/gds-creator-copilot 
 
 Navigate to the project directory:
