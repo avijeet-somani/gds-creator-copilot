@@ -23,21 +23,15 @@ Copy code
 git clone https://github.com/avijeet-somani/gds-creator-copilot 
 
 Navigate to the project directory:
-
-bash
-Copy code
 cd gds-creator-copilot
-Install dependencies:
 
-bash
-Copy code
+Install dependencies:
 pip install -r requirements.txt
+
 Usage
 Run the GDS Creator Copilot:
-
-bash
-Copy code
 streamlit run app.py
+
 Follow on-screen instructions to create your GDS files.
 
 Contributing
