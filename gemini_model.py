@@ -2,10 +2,11 @@ import pathlib
 import textwrap
 from IPython.display import display
 from IPython.display import Markdown
-
+import os
 
 import google.generativeai as genai
 #GOOGLE_API_KEY=userdata.get('Gemini')
+GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 #from google.colab import userdata
 
