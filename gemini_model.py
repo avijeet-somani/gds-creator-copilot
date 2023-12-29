@@ -6,7 +6,6 @@ from IPython.display import Markdown
 
 import google.generativeai as genai
 #GOOGLE_API_KEY=userdata.get('Gemini')
-GOOGLE_API_KEY="AIzaSyC_SZgPPmxB1HaarXe_AeM3BC5ioG0PklY"
 genai.configure(api_key=GOOGLE_API_KEY)
 #from google.colab import userdata
 
